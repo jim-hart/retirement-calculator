@@ -2,4 +2,5 @@ click
 pydantic >= 2.5
 pytest
 requests
+requests-cache
 yarl
