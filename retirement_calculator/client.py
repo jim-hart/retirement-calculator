@@ -23,5 +23,8 @@ def get_user_data(user_id: int) -> User:
         raise TypeError(f"user_id must be int, not {type(user_id)}")
 
     url = USER_API_ROOT / str(user_id)
-    data = requests.get(url).json()
+    resp = requests.get(url)
+    resp.raise_for_status()
+
+    data = resp.json()
     return User(id=user_id, **data["user_info"], **data["assumptions"])
