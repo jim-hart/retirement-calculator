@@ -1,17 +1,7 @@
 from datetime import date
-from typing import Self, NamedTuple
+from typing import Self
 
 from pydantic import BaseModel, field_validator, model_validator
-
-
-class UserFinancials(NamedTuple):
-    """
-    A simple container for encapsulating data about a User's financial situation so that
-    consumers can pass around that data while making use of type checkers.
-    """
-
-    expected_retirement_savings: int
-    required_retirement_savings: int
 
 
 class User(BaseModel):
