@@ -52,7 +52,7 @@ class User(BaseModel):
         :returns:   This User's current approximate age in years, rounded down.
         """
         delta = date.today() - self.date_of_birth
-        return int(delta.days / 365.25)
+        return int(delta.days / 365)
 
     @property
     def years_to_retirement(self) -> int:
