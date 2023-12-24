@@ -136,8 +136,8 @@ class User(BaseModel):
                     # The formula used to calculate this is as follows:
                     #
                     #
-                    #          ⎛    ⎛             -t⎞ ⎞
-                    #          ⎜1 - ⎝(1 + (r - i))  ⎠ ⎟
+                    #          ⎛    ⎛             -t⎞⎞
+                    #          ⎜1 - ⎝(1 + (r - i))  ⎠⎟
                     # FV = A × ⎜─────────────────────⎟
                     #          ⎝        r - i        ⎠
                     #
