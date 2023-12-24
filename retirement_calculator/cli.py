@@ -23,7 +23,8 @@ from retirement_calculator.client import get_user_data
 )
 def main(user_id: int, annual_salary_increase: float, inflation_rate: float) -> None:
     """
-    :param      user_id:                    The ID of the target user.
+    \f
+    :param      user_id:                 The ID of the target user.
     :param      annual_salary_increase:  The expected increase (as a percentage) <user>
                                          can expect each year. increase each year.
     :param      inflation_rate:          The inflation rate to account for in
