@@ -40,7 +40,3 @@ def main(user_id: int, annual_salary_increase: float, inflation_rate: float) -> 
     click.echo(f"\nTo retire at age {user.retirement_age}")
     click.echo(f"You will need:       ${required_retirement_savings:>10,}")
     click.echo(f"You will have saved: ${expected_retirement_savings:>10,}\n")
-
-
-if __name__ == "__main__":
-    main()
