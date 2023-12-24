@@ -9,7 +9,7 @@ Optionally, If you would like to test changes to the code without having to rein
 
 ### Usage
 
-_retirement-calculator_ only requires as user-id as a parameter:
+_retirement-calculator_ only requires an user-id as a parameter:
 
 
 ```sh
