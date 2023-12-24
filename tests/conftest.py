@@ -2,6 +2,7 @@ from datetime import date, timedelta
 
 import pytest
 
+
 @pytest.fixture
 def mock_user_data() -> dict:
     """
@@ -17,11 +18,9 @@ def mock_user_data() -> dict:
         "date_of_birth": date_of_birth.isoformat(),
         "life_expectancy": 90,
         "retirement_age": 60,
-        "current_retirement_savings": 10000,
-        "household_income": 60000,
+        "current_retirement_savings": 10_000,
+        "household_income": 60_000,
         "current_savings_rate": 10,
         "expected_rate_of_return": 10,
         "pre_retirement_income_percent": 67,
     }
-
-
