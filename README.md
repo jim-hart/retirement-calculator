@@ -39,7 +39,7 @@ You will have saved: $10,237,312
 
 All available options, and their default values, can be accessed with the `--help` flag:
 
-```sh
+```text
 $ retirement-calculator --help
 
 Usage: retirement-calculator [OPTIONS] USER_ID
